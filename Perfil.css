@@ -1,0 +1,51 @@
+/* Perfil.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.Perfil {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: auto;
+  background-color: #333;
+  color: #fff;
+}
+
+
+button {
+  display: block;
+  margin: 20px auto; /* Afastamento do botão com margin e centralização com auto */
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px; /* Ajuste a largura do botão conforme necessário */
+}
+
+
+button:focus {
+  outline: none;
+}
+
+
+
+
+
+
